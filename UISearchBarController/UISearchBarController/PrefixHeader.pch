@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  UISearchBarController
+//
+//  Created by zhudong on 16/9/13.
+//  Copyright © 2016年 zhudong. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import <Masonry.h>
+
+#ifdef DEBUG //调试模式
+#define ZDLog(...) NSLog(__VA_ARGS__)
+#else //发布
+#define ZDLog(...)
+#endif
+
+#define Margin 8
+#define ScreenSize [UIScreen mainScreen].bounds.size
+#endif 

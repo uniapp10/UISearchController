@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5311208B1D8792CD009D2A7F /* ZDResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5311208A1D8792CD009D2A7F /* ZDResultController.m */; };
+		5311208D1D879561009D2A7F /* HotWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5311208C1D879561009D2A7F /* HotWords.plist */; };
+		531120901D87C745009D2A7F /* Chengshi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5311208F1D87C745009D2A7F /* Chengshi.plist */; };
+		531120931D87DB93009D2A7F /* ZDHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 531120921D87DB93009D2A7F /* ZDHeaderView.m */; };
+		5319F7D51D4B03E8007214D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5319F7D41D4B03E8007214D2 /* main.m */; };
+		5319F7D81D4B03E8007214D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5319F7D71D4B03E8007214D2 /* AppDelegate.m */; };
+		5319F7DB1D4B03E8007214D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5319F7DA1D4B03E8007214D2 /* ViewController.m */; };
+		5319F7DE1D4B03E8007214D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5319F7DC1D4B03E8007214D2 /* Main.storyboard */; };
+		5319F7E01D4B03E8007214D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5319F7DF1D4B03E8007214D2 /* Assets.xcassets */; };
+		5319F7E31D4B03E8007214D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5319F7E11D4B03E8007214D2 /* LaunchScreen.storyboard */; };
+		BBA9F7BA11A529DF858B2796 /* libPods-UISearchBarController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A479E5F87FD85FCAA2AFE2 /* libPods-UISearchBarController.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		531120891D8792CD009D2A7F /* ZDResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDResultController.h; sourceTree = "<group>"; };
+		5311208A1D8792CD009D2A7F /* ZDResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDResultController.m; sourceTree = "<group>"; };
+		5311208C1D879561009D2A7F /* HotWords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HotWords.plist; sourceTree = "<group>"; };
+		5311208E1D87A14E009D2A7F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5311208F1D87C745009D2A7F /* Chengshi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Chengshi.plist; sourceTree = "<group>"; };
+		531120911D87DB93009D2A7F /* ZDHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDHeaderView.h; sourceTree = "<group>"; };
+		531120921D87DB93009D2A7F /* ZDHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDHeaderView.m; sourceTree = "<group>"; };
+		5319F7D01D4B03E8007214D2 /* UISearchBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISearchBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5319F7D41D4B03E8007214D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5319F7D61D4B03E8007214D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5319F7D71D4B03E8007214D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5319F7D91D4B03E8007214D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5319F7DA1D4B03E8007214D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5319F7DD1D4B03E8007214D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5319F7DF1D4B03E8007214D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5319F7E21D4B03E8007214D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5319F7E41D4B03E8007214D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798EF67DE78912816A64D52F /* Pods-UISearchBarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UISearchBarController.release.xcconfig"; path = "Pods/Target Support Files/Pods-UISearchBarController/Pods-UISearchBarController.release.xcconfig"; sourceTree = "<group>"; };
+		7AB715E67B7288155253B334 /* Pods-UISearchBarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UISearchBarController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UISearchBarController/Pods-UISearchBarController.debug.xcconfig"; sourceTree = "<group>"; };
+		D0A479E5F87FD85FCAA2AFE2 /* libPods-UISearchBarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UISearchBarController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5319F7CD1D4B03E8007214D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA9F7BA11A529DF858B2796 /* libPods-UISearchBarController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5319F7C71D4B03E8007214D2 = {
+			isa = PBXGroup;
+			children = (
+				5319F7D21D4B03E8007214D2 /* UISearchBarController */,
+				5319F7D11D4B03E8007214D2 /* Products */,
+				A4E0513C67332BBDB38ED07D /* Pods */,
+				A3D04765A5DC9FFC52E93703 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5319F7D11D4B03E8007214D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5319F7D01D4B03E8007214D2 /* UISearchBarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5319F7D21D4B03E8007214D2 /* UISearchBarController */ = {
+			isa = PBXGroup;
+			children = (
+				5319F7D61D4B03E8007214D2 /* AppDelegate.h */,
+				5319F7D71D4B03E8007214D2 /* AppDelegate.m */,
+				5319F7D91D4B03E8007214D2 /* ViewController.h */,
+				5319F7DA1D4B03E8007214D2 /* ViewController.m */,
+				531120891D8792CD009D2A7F /* ZDResultController.h */,
+				5311208A1D8792CD009D2A7F /* ZDResultController.m */,
+				531120911D87DB93009D2A7F /* ZDHeaderView.h */,
+				531120921D87DB93009D2A7F /* ZDHeaderView.m */,
+				5319F7DC1D4B03E8007214D2 /* Main.storyboard */,
+				5319F7DF1D4B03E8007214D2 /* Assets.xcassets */,
+				5319F7E11D4B03E8007214D2 /* LaunchScreen.storyboard */,
+				5311208E1D87A14E009D2A7F /* PrefixHeader.pch */,
+				5311208F1D87C745009D2A7F /* Chengshi.plist */,
+				5311208C1D879561009D2A7F /* HotWords.plist */,
+				5319F7E41D4B03E8007214D2 /* Info.plist */,
+				5319F7D31D4B03E8007214D2 /* Supporting Files */,
+			);
+			path = UISearchBarController;
+			sourceTree = "<group>";
+		};
+		5319F7D31D4B03E8007214D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5319F7D41D4B03E8007214D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3D04765A5DC9FFC52E93703 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0A479E5F87FD85FCAA2AFE2 /* libPods-UISearchBarController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4E0513C67332BBDB38ED07D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AB715E67B7288155253B334 /* Pods-UISearchBarController.debug.xcconfig */,
+				798EF67DE78912816A64D52F /* Pods-UISearchBarController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5319F7CF1D4B03E8007214D2 /* UISearchBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5319F7E71D4B03E8007214D2 /* Build configuration list for PBXNativeTarget "UISearchBarController" */;
+			buildPhases = (
+				604ACC3E0D5EB3AF28F86D3B /* [CP] Check Pods Manifest.lock */,
+				5319F7CC1D4B03E8007214D2 /* Sources */,
+				5319F7CD1D4B03E8007214D2 /* Frameworks */,
+				5319F7CE1D4B03E8007214D2 /* Resources */,
+				6C38D66ECDAD07B3760AA52D /* [CP] Embed Pods Frameworks */,
+				8BD82B1A7FAD3411A43D3CE5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UISearchBarController;
+			productName = UISearchBarController;
+			productReference = 5319F7D01D4B03E8007214D2 /* UISearchBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5319F7C81D4B03E8007214D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZD;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zhudong;
+				TargetAttributes = {
+					5319F7CF1D4B03E8007214D2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 5319F7CB1D4B03E8007214D2 /* Build configuration list for PBXProject "UISearchBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5319F7C71D4B03E8007214D2;
+			productRefGroup = 5319F7D11D4B03E8007214D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5319F7CF1D4B03E8007214D2 /* UISearchBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5319F7CE1D4B03E8007214D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5319F7E31D4B03E8007214D2 /* LaunchScreen.storyboard in Resources */,
+				5319F7E01D4B03E8007214D2 /* Assets.xcassets in Resources */,
+				5311208D1D879561009D2A7F /* HotWords.plist in Resources */,
+				5319F7DE1D4B03E8007214D2 /* Main.storyboard in Resources */,
+				531120901D87C745009D2A7F /* Chengshi.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		604ACC3E0D5EB3AF28F86D3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C38D66ECDAD07B3760AA52D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UISearchBarController/Pods-UISearchBarController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BD82B1A7FAD3411A43D3CE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UISearchBarController/Pods-UISearchBarController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5319F7CC1D4B03E8007214D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5311208B1D8792CD009D2A7F /* ZDResultController.m in Sources */,
+				5319F7DB1D4B03E8007214D2 /* ViewController.m in Sources */,
+				5319F7D81D4B03E8007214D2 /* AppDelegate.m in Sources */,
+				531120931D87DB93009D2A7F /* ZDHeaderView.m in Sources */,
+				5319F7D51D4B03E8007214D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5319F7DC1D4B03E8007214D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5319F7DD1D4B03E8007214D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5319F7E11D4B03E8007214D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5319F7E21D4B03E8007214D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5319F7E51D4B03E8007214D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5319F7E61D4B03E8007214D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5319F7E81D4B03E8007214D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB715E67B7288155253B334 /* Pods-UISearchBarController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/zhudong/Documents/尝试/UISearchBarController/UISearchBarController/PrefixHeader.pch";
+				INFOPLIST_FILE = UISearchBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.91guoxin.www.UISearchBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5319F7E91D4B03E8007214D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 798EF67DE78912816A64D52F /* Pods-UISearchBarController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/zhudong/Documents/尝试/UISearchBarController/UISearchBarController/PrefixHeader.pch";
+				INFOPLIST_FILE = UISearchBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.91guoxin.www.UISearchBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5319F7CB1D4B03E8007214D2 /* Build configuration list for PBXProject "UISearchBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5319F7E51D4B03E8007214D2 /* Debug */,
+				5319F7E61D4B03E8007214D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5319F7E71D4B03E8007214D2 /* Build configuration list for PBXNativeTarget "UISearchBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5319F7E81D4B03E8007214D2 /* Debug */,
+				5319F7E91D4B03E8007214D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5319F7C81D4B03E8007214D2 /* Project object */;
+}
